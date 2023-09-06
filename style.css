@@ -302,7 +302,7 @@ html {
 @keyframes showFromRight {
     from {
         opacity: 0;
-        transform: translateX(2rem);
+        transform: translateX(1.5rem);
     }   
     to {
         opacity: 1;
@@ -312,7 +312,7 @@ html {
 @keyframes showFromLeft {
     from {
         opacity: 0;
-        transform: translateX(-2rem);
+        transform: translateX(-1.5rem);
     }
     to {
         opacity: 1;
