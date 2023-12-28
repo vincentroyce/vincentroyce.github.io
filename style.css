@@ -341,16 +341,16 @@ html {
 .skills-content__center {
     display: flex;
     flex-grow: 1;
-    align-items: center;
+    justify-content: center;
     width: 100%;
+    flex-direction: column;
 }
 
 .skills-container__wrapper {
-    flex-wrap: wrap;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 19rem));
     gap: 1.5rem;
-    width: 100%;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .skills-container__wrapper img {
